@@ -1,0 +1,48 @@
+/* Info.css */
+
+.content {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .card {
+    border: 2px solid #28a745; /* Green border, you can change it to your preference */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+    background-color: #fff; /* White background color, you can change it to your preference */
+  }
+  
+  h1 {
+    color: #284aa7; /* Green color for the heading, you can change it to your preference */
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #28a745; /* Green button color, you can change it to your preference */
+    color: #2c02fb; /* White text color, you can change it to your preference */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green on hover, you can change it to your preference */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border-radius to make the image rounded */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  

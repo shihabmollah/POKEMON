@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: linear-gradient(to right, #007bff, #ef8103); Gradient from blue to green, you can change colors as per your preference */
+  padding: 16px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin-right: 35%;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+/* Use the correct selector, lowercase 'link' */
+a {
+  text-decoration: none;
+  color: #0d23ec;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease, transform 0.3s ease, border 0.3s ease, padding 0.3s ease; /* Add padding transition */
+  padding: 8px; /* Add initial padding */
+  display: inline-block; /* Make padding affect the background */
+}
+
+a:hover {
+  /* color: #ff0707; */
+  background-color: orange;
+  transform: scale(1.2); /* Increase scale on hover */
+  border: 4px solid #0b07ff; /* Increase border size on hover */
+  padding: 10px; /* Increase padding on hover */
+  border-radius: 20%; /* Add border radius */
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: 200px;
+}
